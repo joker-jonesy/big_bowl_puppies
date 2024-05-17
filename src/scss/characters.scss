@@ -1,0 +1,38 @@
+#characterWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.character{
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+
+  img{
+    height: 100px;
+  }
+  @media screen and (min-width: 600px) {
+    width: 240px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+}
+
+.buttonWrapper{
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button{
+    margin: 8px;
+  }
+}
